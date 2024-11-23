@@ -1,8 +1,13 @@
 import React from 'react'
+import Images from './components/Images'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Navbar />
+      <Images />
+    </div>
   )
 }
 
